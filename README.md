@@ -1,11 +1,21 @@
 # spaceduck-emacs
 A quick and dirty unofficial port of the spaceduck theme <https://github.com/pineapplegiant/spaceduck> for emacs. Generated with <https://github.com/UwUnyaa/vimco>. Lots of hackery at this stage. See below.
 
+## Installation Instructions
+
+Simply add the theme to your `.emacs.d` and add
+
+```emacs-lisp
+(load-theme 'spaceduck t)
+```
+
+to your emacs configuration file (ex: `init.el`)
+
 ## Modline modifications
 
-add the following to your `init.el` or `emacs.el`
+add the following to your emacs configuration file (ex: `init.el`)
 
-```lisp
+```emacs-lisp
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -15,7 +25,7 @@ add the following to your `init.el` or `emacs.el`
 
 ```
 
-```lisp
+```emacs-lisp
 (defface mode-line-directory
   '((t :background "black" :foreground "#7a5ccc" :bold t))
   "Face used for buffer identification parts of the mode line."
@@ -23,7 +33,7 @@ add the following to your `init.el` or `emacs.el`
   :group 'basic-faces)
 ```
 
-```lisp
+```emacs-lisp
 (set-face-attribute 'mode-line nil
                     :background "black"
                     :foreground "#686f9a"
