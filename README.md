@@ -1,5 +1,5 @@
 # spaceduck-emacs
-A quick and dirty spaceduck theme for emacs generated with <https://github.com/UwUnyaa/vimco>. Lots of hackery at this stage. See below.
+A quick and dirty unofficial port of the spaceduck theme <https://github.com/pineapplegiant/spaceduck> for emacs. Generated with <https://github.com/UwUnyaa/vimco>. Lots of hackery at this stage. See below.
 
 ## Modline modifications
 
