@@ -48,6 +48,11 @@ add the following to your emacs configuration file (ex: `init.el`)
                     :overline nil)
 ```
                     
-# Screenshot
+## Screenshot
 
 ![emacs](emacs.png)
+
+## TODO
+
+- [ ] Setup a proper theme instead of relying on hacks
+ - [ ] Publish to MELPA
