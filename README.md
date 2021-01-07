@@ -11,4 +11,4 @@ Simply add the theme to your `.emacs.d/` folder and add the following to your em
 
 # Screenshot
 
-![emacs](emacs.png)
+![emacs](emacs_preview.png)
